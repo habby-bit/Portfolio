@@ -1,0 +1,45 @@
+.navbar {
+    background-color: black;
+}
+
+.masthead {
+    background-color: grey;
+}
+
+#HabbyPic {
+    border: solid 3px black;
+}
+
+#portfolio {
+    background-color: whitesmoke;
+}
+
+#about {
+    background-color: black;
+}
+
+#contact {
+    background-color: whitesmoke;
+}
+
+#sendMessageButton {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.footer {
+    background-color: black;
+}
+
+.copyright {
+    background-color: grey;
+}
+#page-top .img-fluid {
+    width: 100%;
+    height: 250px;
+}
+
+.modal-xl {
+    width: 60%;
+    height: auto;
+}
