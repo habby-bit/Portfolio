@@ -8,10 +8,39 @@
 
 #HabbyPic {
     border: solid 3px black;
+    height: 350px;
+    width: 325px;
 }
 
 #portfolio {
     background-color: whitesmoke;
+}
+
+.modTitle {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.modCont {
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+.modal-body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.divider-custom .divider-custom-line {
+    background-color: whitesmoke;
+}
+
+.divider-custom .divider-custom-icon{
+    color: whitesmoke;
+}
+
+.btn {
+    color: black;
 }
 
 #about {
