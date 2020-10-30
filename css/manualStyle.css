@@ -3,13 +3,30 @@
 }
 
 .masthead {
-    background-color: grey;
+    background-color: darkgray;
+}
+
+.masthead-heading,
+.masthead-subheading {
+    color: black;
 }
 
 #HabbyPic {
     border: solid 3px black;
     height: 350px;
     width: 325px;
+}
+
+.blackHeading{
+    color: black;
+}
+
+.divider-custom .divider-custom-line{ 
+    background-color: black;
+}
+
+.divider-custom .divider-custom-icon {
+    color: black;
 }
 
 #portfolio {
@@ -31,24 +48,16 @@
     color: whitesmoke;
 }
 
-.divider-custom .divider-custom-line {
-    background-color: whitesmoke;
-}
-
-.divider-custom .divider-custom-icon{
-    color: whitesmoke;
-}
-
 .btn {
     color: black;
 }
 
-#about {
-    background-color: black;
+.btn-social {
+    color: whitesmoke;
 }
 
-#contact {
-    background-color: whitesmoke;
+#about {
+    background-color: black;
 }
 
 #sendMessageButton {
@@ -71,4 +80,13 @@
 .modal-xl {
     width: 60%;
     height: auto;
+}
+
+.contact {
+    background-color: whitesmoke;
+}
+
+h5 {
+    margin-top: 12px;
+    margin-left: 8px;
 }

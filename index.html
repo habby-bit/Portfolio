@@ -13,6 +13,8 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Reset CSS-->
+        <link rel="stylesheet" href="css/reset.css" media="screen" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <!-- Manual CSS Design-->
@@ -44,10 +46,10 @@
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Habby Olusesi</h1>
                 <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                    <div class="divider-custom-line"></div>
+                <div class="divider-custom">
+                    <div class="divider-custom-line black"></div>
+                    <div class="divider-custom-icon black"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line black"></div>
                 </div>
                 <!-- Masthead Subheading-->
                 <p class="masthead-subheading font-weight-light mb-0">Full Stack Developer</p>
@@ -57,12 +59,12 @@
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <h2 class="page-section-heading text-center text-uppercase mb-0 blackHeading">Portfolio</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line black"></div>
+                    <div class="divider-custom-icon black"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line black"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row">
@@ -108,8 +110,8 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-12 ml-auto"><p class="lead">
+                <div class="row text-center">
+                    <div class="col-lg-12 ml-auto "><p class="lead mb-5">
                         Recently earned a Full Stack Development certificate from the 
                         University of North Carolina at Chapel Hill, developing my skills 
                         in JavaScript, CSS, Node.js and Object-Oriented Programming. 
@@ -125,25 +127,27 @@
                         For me, every project is an opportunity to do better and learn more. 
                         I’m eager to utilize my skills and continue to grow in a team 
                         environment focused on creating quality applications.
-                    </p></div>
+                    </p>
+                    <h4><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:8694f077-0a74-46a8-a2f1-6fb604a5f085">MY RESUME</a></h4>
+
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
+        <section class="page-section contact" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+                <h2 class="page-section-heading text-center text-uppercase mb-0 blackHeading">Contact Me</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-line black"></div>
+                    <div class="divider-custom-icon black"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-line black"></div>
                 </div>
                 <!-- Contact Section Form-->
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
-                        <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19.-->
                         <form id="contactForm" name="sentMessage" novalidate="novalidate">
                             <div class="control-group">
                                 <div class="form-group floating-label-form-group controls mb-0 pb-2">
@@ -191,12 +195,24 @@
                         <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/habby-olusesi-816223194"><i class="fab fa-fw fa-linkedin-in"></i></a>
                         <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/habby-bit"><i class="fab fa-fw fa-github"></i></a>
                     </div>
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <div class = "row mb-2">
+                            <a class="btn btn-outline-light btn-social mx-1" href="mailto: habbyolu@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <h5>habbyolu@gmail.com</h5>
+                        </div>
+
+                        <div class = "row">
+                            <a class="btn btn-outline-light btn-social mx-1" href="tel:9195187029"><i class="fas fa-phone"></i></a>
+                            <h5>919.518.7029</h5>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Your Website 2020</small></div>
+            <div class="container"><small>Copyright © Habby Olusesi 2020</small></div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
@@ -217,7 +233,7 @@
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal1Label">BadgeriO</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
+                                    <div class="divider-custom divider-light">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
                                         <div class="divider-custom-line"></div>
@@ -262,21 +278,27 @@
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal2Label">Workday Scheduler</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
+                                    <div class="divider-custom divider-light">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p>Link to GitHub: https://github.com/habby-bit/WorkDayScheduler</p>
-                                    <p>Link to Deployed Project: https://habby-bit.github.io/WorkDayScheduler/</p>
-                                    <p>Summary: A planner that allows the user to input various events in their 
-                                        schedule for the current day. Those events can be saved and will persist 
-                                        even after the page is refreshed.
+                                    <p class = "modTitle"><a href="https://github.com/habby-bit/WorkDayScheduler">GITHUB REPO</a></p>
+                                    <p class = "modTitle mb-4"><a href="https://habby-bit.github.io/WorkDayScheduler/">DEPLOYED PROJECT</a></p>
+                                    <p class = "modTitle">SUMMARY</p>
+                                    <p class = "modCont mb-4"> This is a planner that allows the user to input 
+                                        various events in their schedule for the current day. Those events can 
+                                        be saved and will persist even after the page is refreshed. The blocks 
+                                        referencing time that has passed will be greyed out, the block of time 
+                                        the user is currently in will be red, and the blocks referring to time 
+                                        that is yet to come will be green.
                                     </p>
-                                    <p>Role: Sole Author</p>
-                                    <p>Tools: Javascript, JQuery, Bootstrap, CSS, Moment.js</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
+                                    <p class = "modTitle">ROLE</p>
+                                    <p class = "modCont mb-4">Sole Author</p>
+                                    <p class = "modTitle">TOOLS</p>
+                                    <p class = "modCont mb-4">Javascript, JQuery, Bootstrap, CSS, Moment.js</p>
+                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
@@ -301,21 +323,28 @@
                                     <!-- Portfolio Modal - Title-->
                                     <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal3Label">Weather App</h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom">
+                                    <div class="divider-custom divider-light">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p>Link to GitHub: https://github.com/habby-bit/WeatherApp</p>
-                                    <p>Summary: Allows the user to search for a city and upon 
-                                        submission, receive the current weather information for that 
-                                        city along with a 5 day forecast.
+                                    <p class = "modTitle"><a href="https://github.com/habby-bit/WeatherApp">GITHUB REPO</a></p>
+                                    <p class = "modTitle mb-4"><a href="https://habby-bit.github.io/WeatherApp/">DEPLOYED PROJECT</a></p>
+                                    <p class = "modTitle">SUMMARY</p>
+                                    <p class = "modCont mb-4"> This Weather App allows the user to search for a city 
+                                        and upon submission, receive the current weather information for that city. 
+                                        That includes the temperature, the humidity, the wind speed and the UV Index. 
+                                        They are also presented with a 5 day forecast that informs of the temperature 
+                                        and humidity for the next 5 days. Upon searching a city, that city is saved and 
+                                        added to the page. If the user presses that city name again, the weather dashboard 
+                                        will once again display the information for that city.
                                     </p>
-                                    <p>Link to Deployed Project: https://habby-bit.github.io/WeatherApp/</p>
-                                    <p>Role: Sole Author</p>
-                                    <p>Tools: Javascript, JQuery, CSS, Bootstrap, API’s</p>
-                                    <button class="btn btn-primary" data-dismiss="modal">
+                                    <p class = "modTitle">ROLE</p>
+                                    <p class = "modCont mb-4">Sole Author</p>
+                                    <p class = "modTitle">TOOLS</p>
+                                    <p class = "modCont mb-4">Javascript, JQuery, CSS, Bootstrap, API’s</p>
+                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
                                         <i class="fas fa-times fa-fw"></i>
                                         Close Window
                                     </button>
