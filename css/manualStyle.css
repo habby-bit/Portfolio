@@ -33,6 +33,15 @@
     background-color: whitesmoke;
 }
 
+.portTitle {
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    border: solid black 4px;
+    padding: 20px;
+    margin-bottom: -1px;
+}
+
 .modTitle {
     padding-bottom: 0px;
     margin-bottom: 0px;
