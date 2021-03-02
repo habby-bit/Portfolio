@@ -3,7 +3,7 @@
 }
 
 .masthead {
-    background-color: darkgray;
+    background-color: gainsboro;
 }
 
 .masthead-heading,
@@ -30,7 +30,7 @@
 }
 
 #portfolio {
-    background-color: whitesmoke;
+    background-color: gainsboro;
 }
 
 .portTitle {
@@ -79,7 +79,7 @@
 }
 
 .copyright {
-    background-color: grey;
+    background-color: #1abc9c;
 }
 #page-top .img-fluid {
     width: 100%;
