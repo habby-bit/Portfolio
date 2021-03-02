@@ -4,6 +4,12 @@
 
 .masthead {
     background-color: gainsboro;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+#nametitle {
+    margin-top: 80px;
 }
 
 .masthead-heading,
@@ -13,8 +19,9 @@
 
 #HabbyPic {
     border: solid 3px black;
-    height: 350px;
-    width: 325px;
+    height: 450px;
+    width: 425px;
+    padding-right: 0px;
 }
 
 .blackHeading{
