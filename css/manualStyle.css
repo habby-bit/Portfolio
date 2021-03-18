@@ -1,5 +1,14 @@
 .navbar {
-    background-color: black;
+    background-color: #000000;
+}
+
+.navbar .container {
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+#mainNav .navbar-brand {
+    color: #1abc9c;
 }
 
 .masthead {
@@ -15,6 +24,10 @@
 .masthead-heading,
 .masthead-subheading {
     color: black;
+}
+
+.masthead-subheading {
+    padding-left: 0px;
 }
 
 #HabbyPic {
