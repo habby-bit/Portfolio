@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a potfolio that displays a professional bio as well as links to a handful of projects that I've worked on. It also provides my resume and contact information for any interested parties.
+This is a portfolio that displays a professional bio as well as links to a handful of projects that I've worked on. It also provides my resume and contact information for any interested parties.
 
 ## Table of Contents
 
