@@ -2,17 +2,41 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Habby Olusesi</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <script
+            src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"
+            crossorigin="anonymous"
+        ></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+            rel="stylesheet"
+            type="text/css"
+        />
+
+        <!-- BOOTSTRAP -->
+        <!-- Latest compiled and minified CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+            crossorigin="anonymous"
+        />
+
         <!-- Reset CSS-->
         <link rel="stylesheet" href="css/reset.css" media="screen" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -21,461 +45,773 @@
         <link href="css/manualStyle.css" rel="stylesheet" />
     </head>
     <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- NAV SECTION-->
+        <nav
+            class="navbar navbar-expand-lg text-uppercase fixed-top"
+            id="mainNav"
+        >
+            <div>
+                <button
+                    class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav mr-auto ml-0">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#about"
+                                >About</a
+                            >
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#resume"
+                                >Resume</a
+                            >
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#portfolio"
+                                >Portfolio</a
+                            >
+                        </li>
+                        <li class="nav-item mx-0 mx-lg-1">
+                            <a
+                                class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                                href="#contact"
+                                >Contact</a
+                            >
+                        </li>
                     </ul>
                 </div>
             </div>
-            <a class="navbar-brand mb-0 ml-2 h1 js-scroll-trigger" href="#habHeading">HABBY</a>
-
+            <a
+                class="navbar-brand mb-0 ml-2 h1 js-scroll-trigger"
+                href="#habHeading"
+                style="
+                    background-color: rgb(26, 25, 25);
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-right: 10px;
+                "
+                ><img
+                    src="/assets/img/Avatar.svg"
+                    style="max-width: 50px; max-height: 70px"
+            /></a>
         </nav>
-        <!-- Masthead-->
+        <!-- PIC AND TITLE SECTION-->
         <header class="masthead text-white text-center" id="habHeading">
             <div class="container d-flex align-items-center flex-column">
                 <div class="row">
-                    <div class="col-lg-7">
+                    <div class="col-lg-6">
                         <!-- Masthead Avatar Image-->
-                        <img class="masthead-avatar mb-5" id="HabbyPic" src="assets/img/HabbyA.jpg" alt="Picture of Me" />
+                        <img
+                            class="masthead-avatar mb-5"
+                            id="HabbyPic"
+                            src="assets/img/HabbyA.jpg"
+                            alt="Picture of Me"
+                        />
                     </div>
-                    <div class="col-lg-3" id="nametitle">
+                    <div class="col-lg-6" id="nametitle">
                         <!-- Masthead Heading-->
-                        <h1 class="masthead-heading text-uppercase mb-0">Habby Olusesi</h1>
+                        <h1 class="masthead-heading text-uppercase mb-0">
+                            Habby Olusesi
+                        </h1>
                         <!-- Icon Divider-->
-                        <div class="divider-custom">
+                        <div class="divider-custom header-custom-line">
                             <div class="divider-custom-line black"></div>
-                            <div class="divider-custom-icon black"><i class="fas fa-code"></i></div>
+                            <div class="divider-custom-icon black">
+                                <i class="fas fa-code"></i>
+                            </div>
                             <div class="divider-custom-line black"></div>
                         </div>
                         <!-- Masthead Subheading-->
-                        <p class="masthead-subheading font-weight-light mb-0">Full Stack Engineer</p>
-                
+                        <p
+                            class="mb-1 mt-0"
+                            style="font-size: 1.7rem; color: black"
+                        >
+                            UI/UX Engineer
+                        </p>
+
+                        <p class="mb-5" style="font-size: 1.7rem; color: black">
+                            Product Designer
+                        </p>
+
+                        <p
+                            class="mt-5"
+                            style="
+                                font-style: italic;
+                                font-size: 1.3rem;
+                                color: black;
+                                font-weight: 900;
+                            "
+                        >
+                            TV, Film and Theatre Enthusiast
+                        </p>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- About Section-->
+        <!-- ABOUT SECTION-->
         <section class="page-section text-white mb-0" id="about">
             <div class="container">
                 <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <h2
+                    class="page-section-heading text-center text-uppercase text-white"
+                >
+                    About Me
+                </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- About Section Content-->
-                <div class="row text-center">
-                    <div class="col-lg-12 ml-auto "><p class="lead mb-5">
-                        I recently earned a Full Stack Development certificate from the 
-                        University of North Carolina at Chapel Hill, developing my skills 
-                        in JavaScript, CSS, Node.js and React. I bring with me years of 
-                        experience in various fields, such as Mathematics and Theatre, 
-                        to create dynamic web applications. With my diverse background, 
-                        I’ve cultivated my ability to merge creativity and logistics while 
-                        maintaining a meaningful user experience and meeting deadlines. 
-                        I’ve been on teams for various types of projects. This ranges from 
-                        a social media site geared toward theatre lovers, to an app designed 
-                        to assist SEO Specialists and Cyber Intelligence Investigators by 
-                        aggregating information about a website without going to the site. 
-                        For me, every project is an opportunity to do better and learn more. 
-                        I’m eager to leverage my background in the arts while utilizing my 
-                        technical skills to create high performance applications that are 
-                        incredibly engaging.
-                    </p>
-                    <div class="divider-custom divider-light mb-3">
-                        <div class="divider-custom-line"></div>
-                    </div>
-                    <h4><a href="https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:1d581773-a636-4b70-a46f-e4725b2553f7" target="_blank">MY RESUME</a></h4>
-                    <div class="divider-custom divider-light mb-3">
-                        <div class="divider-custom-line"></div>
-                    </div>
+                <div class="row text-center" style="letter-spacing: 1px">
+                    <div class="col-lg-12 ml-auto">
+                        <p class="lead mb-5">
+                            I earned a B.S. degree in Math and a B.A. in Theatre
+                            from Wake Forest, as well as a Full Stack
+                            Development certificate from UNC Chapel Hill. I've
+                            had the opportunity to develop my skills in
+                            JavaScript, CSS, React, Adobe and design software
+                            such as Figma and Axure. I aim to bridge the gap
+                            between technicality and creativity to equip dynamic
+                            apps with a refined user experience. My background
+                            in Math, Theatre and Software Development has
+                            allowed me to cultivate strong, diverse
+                            problem-solving skills. I’ve been on teams for
+                            various types of projects, including an app used by
+                            the U.S. Air Force, a social media app for theatre
+                            lovers, as well as for a Startup Fintech company. I
+                            also enjoy creating independent projects stretching
+                            and flexing my design skills. I’m eager to leverage
+                            my technical abilities with my unique perspective to
+                            design high performance apps that are incredibly
+                            engaging.
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Portfolio Section-->
+        <div>
+            <h2
+                class="page-section-heading-two text-center text-uppercase text-white mb-5 text-primary"
+            >
+                A Little More About Me...
+            </h2>
+        </div>
+
+        <section class="page-section text-white mb-0 aboutMeFun">
+            <span
+                style="
+                    display: block;
+                    font-size: 20px;
+                    margin: 2rem 3rem 0rem 3rem;
+                "
+            >
+                Bread in almost any form is my all time favorite food. I hate
+                the taste of Coffee. I jam out to Musical Theatre to get through
+                my workouts. Something I’m incredibly proud of is when I wrote
+                and produced an original play my senior year of college. There
+                are few things I love more than a solid movie or my favorite TV
+                show and a hefty bowl of pop corn. I love trying new things. And
+                I love all things creative (especially theatre)!
+            </span>
+            <div class="row">
+                <div class="col-lg-5 lead mt-3" style="margin-left: 3rem">
+                    <span style="padding-bottom: 0.5rem">
+                        Some of the coolest places I've been:
+                        <ul>
+                            <li class="aboutMeLists">Switzerland</li>
+                            <li class="aboutMeLists">Cuba</li>
+                            <li class="aboutMeLists">Nigeria</li>
+                        </ul>
+                    </span>
+                    <span style="padding-bottom: 0.5rem">
+                        Two books that are incredibly special to me:
+                        <ul>
+                            <li class="aboutMeLists">
+                                <span style="font-style: italic"
+                                    >Me Before You
+                                </span>
+                                (bawled my eyes out for days)
+                            </li>
+                            <li class="aboutMeLists">
+                                <span style="font-style: italic"
+                                    >Long Way Down </span
+                                >(couldn't put it down)
+                            </li>
+                        </ul>
+                    </span>
+
+                    <span style="display: block; padding-bottom: 0.5rem">
+                        A few of my favorite movies and TV shows:
+
+                        <ul>
+                            <li class="aboutMeLists">
+                                <span style="font-style: italic"
+                                    >Search Party
+                                </span>
+                                (thrilling and unexpected)
+                            </li>
+                            <li class="aboutMeLists">
+                                <span style="font-style: italic"
+                                    >Jane The Virgin
+                                </span>
+                                (heart-wrenching and hilarious)
+                            </li>
+                            <li class="aboutMeLists">
+                                <span style="font-style: italic"
+                                    >A Monster Calls
+                                </span>
+                                (no words)
+                            </li>
+                        </ul>
+                    </span>
+                </div>
+
+                <video
+                    autoplay
+                    loop
+                    muted
+                    width="525"
+                    height="370"
+                    src="./assets/img/SelfAnimation.mov"
+                    style="
+                        padding: 0px;
+                        margin: 0px;
+                        margin-right: 1rem;
+                        margin-top: 1rem;
+                        border: solid;
+                        background-color: black;
+                    "
+                    class="col-lg-6"
+                ></video>
+            </div>
+        </section>
+
+        <!-- RESUME SECTION -->
+        <section class="copyright py-4 text-center text-white" id="resume">
+            <div class="divider-custom divider-light mb-3">
+                <div class="divider-custom-line"></div>
+            </div>
+            <h4>
+                <p style="text-transform: uppercase">download my resume</p>
+                <a
+                    class="btn btn-outline-light btn-social mx-1 downloadButton"
+                    href="/assets/Olusesi,Habby_Resume.pdf"
+                    download
+                >
+                    <i class="fas fa-download"></i>
+                </a>
+            </h4>
+            <div class="divider-custom divider-light mb-3">
+                <div class="divider-custom-line"></div>
+            </div>
+        </section>
+        <!-- PORTFOLIO SECTION-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase mb-0 blackHeading">Portfolio</h2>
+                <h2
+                    class="page-section-heading text-center text-uppercase mb-0 blackHeading"
+                >
+                    Portfolio
+                </h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line black"></div>
-                    <div class="divider-custom-icon black"><i class="fas fa-code"></i></div>
+                    <div class="divider-custom-icon black">
+                        <i class="fas fa-code"></i>
+                    </div>
                     <div class="divider-custom-line black"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
                 <div class="row">
-                    <!-- BadgerIO-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
-                            </div>
-                        <h2 class = "portTitle" >BadgerIO</h2>
-                        </div>
-                    </div>
-                    <!--Code Carnival-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
-                            </div>
-                            <h2 class = "portTitle">Code Carnival</h2>
-                        </div>
-                    </div>
-                    <!--Upstaged-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
-                            </div>
-                            <h2 class = "portTitle" >Upstaged</h2>
-                        </div>
-                    </div>
                     <!--Weather App-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
+                        <div
+                            class="portfolio-item mx-auto"
+                            data-toggle="modal"
+                            data-target="#portfolioModal1"
+                        >
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            >
+                                <div
+                                    class="portfolio-item-caption-content text-center text-white"
+                                >
+                                    <i class="fas fa-plus fa-1x"></i>
+                                </div>
                             </div>
-                            <h2 class = "portTitle" >Weather App</h2>
-                        </div>
-                    </div>
-                    <!--Employee Directory-->
-                    <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
-                            </div>
-                            <h2 class = "portTitle" >Directory</h2>
+                            <h2 class="portTitle">Weather App</h2>
                         </div>
                     </div>
                     <!-- Todo List -->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal6">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
+                        <div
+                            class="portfolio-item mx-auto"
+                            data-toggle="modal"
+                            data-target="#portfolioModal2"
+                        >
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            >
+                                <div
+                                    class="portfolio-item-caption-content text-center text-white"
+                                >
+                                    <i class="fas fa-plus fa-1x"></i>
+                                </div>
                             </div>
-                            <h2 class = "portTitle" >Todo List</h2>
+                            <h2 class="portTitle">Todo List</h2>
+                        </div>
+                    </div>
+                    <!-- Cool Characters -->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div
+                            class="portfolio-item mx-auto"
+                            data-toggle="modal"
+                            data-target="#portfolioModal3"
+                        >
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            >
+                                <div
+                                    class="portfolio-item-caption-content text-center text-white"
+                                >
+                                    <i class="fas fa-plus fa-1x"></i>
+                                </div>
+                            </div>
+                            <h2 class="portTitle">Cool Characters</h2>
                         </div>
                     </div>
                     <!-- Netflix Clone -->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal7">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
+                        <div
+                            class="portfolio-item mx-auto"
+                            data-toggle="modal"
+                            data-target="#portfolioModal4"
+                        >
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            >
+                                <div
+                                    class="portfolio-item-caption-content text-center text-white"
+                                >
+                                    <i class="fas fa-plus fa-1x"></i>
+                                </div>
                             </div>
-                            <h2 class = "portTitle">Netflix Clone</h2>
+                            <h2 class="portTitle">Netflix Clone</h2>
                         </div>
                     </div>
-                    <!--Budget Tracker-->
+                    <!--Code Carnival-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal8">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
+                        <div
+                            class="portfolio-item mx-auto"
+                            data-toggle="modal"
+                            data-target="#portfolioModal5"
+                        >
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            >
+                                <div
+                                    class="portfolio-item-caption-content text-center text-white"
+                                >
+                                    <i class="fas fa-plus fa-1x"></i>
+                                </div>
                             </div>
-                            <h2 class = "portTitle" >Budget Tracker</h2>
+                            <h2 class="portTitle">Code Carnival</h2>
                         </div>
                     </div>
-                    <!--Workout Tracker-->
+                    <!--Upstaged-->
                     <div class="col-md-6 col-lg-4 mb-5">
-                        <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal9">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-1x"></i></div>
+                        <div
+                            class="portfolio-item mx-auto"
+                            data-toggle="modal"
+                            data-target="#portfolioModal6"
+                        >
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100"
+                            >
+                                <div
+                                    class="portfolio-item-caption-content text-center text-white"
+                                >
+                                    <i class="fas fa-plus fa-1x"></i>
+                                </div>
                             </div>
-                            <h2 class = "portTitle" >Workout Tracker</h2>
+                            <h2 class="portTitle">Upstaged</h2>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <section
+            class="page-section portfolioQuickLook"
+            style="display: flex; flex-direction: column; align-items: center"
+        >
+            <div class="portfolioQuickLookTextGroup">
+                <h4 class="portfolioQuickLookTitle">Portfolio Quick Look</h4>
+                <p>
+                    Here are some designs I did for fun, to practice and to let
+                    my creative juices flow.
+                </p>
+            </div>
+            <div style="display: flex; justify-content: center">
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel slide carousel-fade"
+                    data-bs-ride="true"
+                    style="display: flex; justify-content: center; width: 45rem"
+                >
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                            style="border: solid #0000004d"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                            style="border: solid #0000004d"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                            style="border: solid #0000004d"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="3"
+                            aria-label="Slide 4"
+                            style="border: solid #0000004d"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="4"
+                            aria-label="Slide 5"
+                            style="border: solid #0000004d"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="5"
+                            aria-label="Slide 6"
+                            style="border: solid #0000004d"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <!-- KWABS -->
+                        <div class="carousel-item active">
+                            <img
+                                src="./assets/img/Kwabs.png"
+                                class="d-block w-100"
+                                alt="..."
+                                style="
+                                    height: 30rem;
+                                    width: 40rem;
+                                    object-position: center center;
+                                "
+                            />
+                        </div>
+                        <!-- ISAK -->
+                        <div class="carousel-item">
+                            <img
+                                src="./assets/img/Isak.png"
+                                class="d-block w-100"
+                                alt="..."
+                                style="
+                                    height: 30rem;
+                                    width: 40rem;
+                                    object-position: center center;
+                                "
+                            />
+                        </div>
+                        <!-- DREADS -->
+                        <div class="carousel-item">
+                            <img
+                                src="./assets/img/Dreads.png"
+                                class="d-block w-100"
+                                alt="..."
+                                style="
+                                    height: 30rem;
+                                    width: 40rem;
+                                    object-position: center center;
+                                "
+                            />
+                        </div>
+                        <!-- UMBRELLA -->
+                        <div class="carousel-item">
+                            <img
+                                src="./assets/img/Umbrella.png"
+                                class="d-block w-100"
+                                alt="..."
+                                style="
+                                    height: 30rem;
+                                    width: 40rem;
+                                    object-position: center center;
+                                "
+                            />
+                        </div>
+                        <!-- AUSTIN -->
+                        <div class="carousel-item">
+                            <img
+                                src="./assets/img/AustinMcKenzie.png"
+                                class="d-block w-100"
+                                alt="..."
+                                style="
+                                    height: 30rem;
+                                    width: 40rem;
+                                    object-position: center center;
+                                "
+                            />
+                        </div>
+                        <!-- VENENA -->
+                        <div class="carousel-item">
+                            <img
+                                src="./assets/img/Venena.png"
+                                class="d-block w-100"
+                                alt="..."
+                                style="
+                                    height: 30rem;
+                                    width: 40rem;
+                                    object-position: center center;
+                                "
+                            />
+                        </div>
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
         <!-- Footer-->
         <footer class="footer text-center" id="contact">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/habby-olusesi" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/habby-bit" target="_blank"><i class="fab fa-fw fa-github"></i></a>
-                    </div>
-                    <div class="col-lg-4 mb-5 mb-lg-0">
-                        <div class = "row mb-2">
-                            <a class="btn btn-outline-light btn-social mx-1" href="mailto: habbyolu@gmail.com"><i class="fas fa-envelope"></i></a>
-                            <h5>habbyolu@gmail.com</h5>
-                        </div>
+            <!-- <div class="container"> -->
+            <div
+                class="row container col-lg-12"
+                style="align-items: center; margin: 0"
+            >
+                <h4 class="text-uppercase col-lg-3">Around the Web</h4>
 
-                        <div class = "row">
-                            <a class="btn btn-outline-light btn-social mx-1" href="tel:9195187029"><i class="fas fa-phone"></i></a>
+                <!-- Footer Social Icons-->
+                <div
+                    class="col-lg-4"
+                    style="display: flex; flex-direction: column"
+                >
+                    <div style="display: flex; margin-bottom: 1rem">
+                        <a
+                            class="btn btn-outline-light btn-social mx-1"
+                            href="tel:9195187029"
+                            ><i class="fas fa-phone"></i
+                        ></a>
+                        <a href="tel:9195187029" class="footerText">
                             <h5>919.518.7029</h5>
-                        </div>
-
+                        </a>
+                    </div>
+                    <div style="display: flex">
+                        <a
+                            class="btn btn-outline-light btn-social mx-1"
+                            href="mailto: habbyolu@gmail.com"
+                            ><i class="fas fa-envelope"></i
+                        ></a>
+                        <a href="mailto: habbyolu@gmail.com" class="footerText">
+                            <h5>habbyolu@gmail.com</h5>
+                        </a>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-5"
+                    style="display: flex; flex-direction: column"
+                >
+                    <div style="display: flex; margin-bottom: 1rem">
+                        <a
+                            class="btn btn-outline-light btn-social mx-1"
+                            href="https://github.com/habby-bit"
+                            target="_blank"
+                            ><i class="fab fa-fw fa-github"></i
+                        ></a>
+                        <a
+                            href="https://github.com/habby-bit"
+                            class="footerText"
+                        >
+                            <h5>github.com/habby-bit</h5>
+                        </a>
+                    </div>
+                    <div style="display: flex">
+                        <a
+                            class="btn btn-outline-light btn-social mx-1"
+                            href="https://www.linkedin.com/in/habby-olusesi"
+                            target="_blank"
+                            ><i class="fab fa-fw fa-linkedin-in"></i
+                        ></a>
+                        <a
+                            href="https://www.linkedin.com/in/habby-olusesi/"
+                            class="footerText"
+                        >
+                            <h5>linkedin.com/in/habby-olusesi/</h5>
+                        </a>
                     </div>
                 </div>
             </div>
+            <!-- </div> -->
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright © Habby Olusesi 2020</small></div>
+            <div class="container">
+                <small>Copyright © Ahbia Olusesi 2020</small>
+            </div>
         </div>
         <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
         <div class="scroll-to-top d-lg-none position-fixed">
-            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+            <a
+                class="js-scroll-trigger d-block text-center text-white rounded"
+                href="#page-top"
+                ><i class="fa fa-chevron-up"></i
+            ></a>
         </div>
-        <!-- Portfolio Modals-->
-        <!-- BadgerIO-->
-        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0 text-primary" id="portfolioModal1Label">BadgeriO</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/FullStackProject1" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://bpgould.github.io/FullStackProject1" target="_blank">DEPLOYED PROJECT</a></p>   
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4">This app was designed to assist Marketing Analysts, 
-                                        SEO Specialist, Cyber Intelligence Investigators, or just generally curious 
-                                        people, in aggregating information sources about a website of interest.  
-                                        The end goal is to provide a one-click solution that will make anyone a 
-                                        cyber-sleuth, without having to understand advanced search operators, or the 
-                                        ever changing digital sources that provide useful Open & Closed Source 
-                                        Intelligence. 
-                                    </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">Front-End Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">Javascript, JQuery, Materialize, CSS</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Code Carnival-->
-        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal2Label">Code Carnival</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/Code-Carnival" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://code-carnival.herokuapp.com/" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> The Code Carnival is a fun code based collection of 
-                                        carnival games created for all to play, excite, and enjoy. We want you to be 
-                                        immersed in the carnival experience, with games such as pong, blackjack, and 
-                                        the fortune teller - Madame Boolean, all coded for your enjoyment. Extra games 
-                                        were added as well, to the likes of MadLibs, Snake, and more to come in the 
-                                        future! In doing so, we made use of a database, express server, user authentication, 
-                                        encryption, and game development. We hope you love your time at the carnival.
-                                    </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">Full Stack Developer - BlackJack</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">Javascript, JQuery, Bootstrap, CSS</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Upstaged-->
-        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal3Label">Upstaged</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/Upstaged" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://upstaged.herokuapp.com/" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> Upstaged was created by theatre lovers, for theatre lovers. 
-                                        Upstaged is a multi-faceted and highly entertaining theatre app, created to 
-                                        entertain, amuse, and enjoy. There are various games, quizzes, videos, and 
-                                        social feeds. Theatre Jeopardy, Hamilton Trivia, and a Playbill creator, 
-                                        just to name a few of the interesting features on the site. You can stay up to 
-                                        date on what's trending in broadway with our News page, as well as our Show-Score, 
-                                        Twitter, and Youtube feeds. With every game or quiz, you have a chance to gain points 
-                                        and rise through the rank. Stay tuned for a chat feature, so you can enjoy all of 
-                                        this in live time with friends, competitors and fellow theatre lovers. 
-                                    </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">Full Stack Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">Javascript, JQuery, CSS, Bootstrap, API’s, Mongoose, React.js, Express, Axios</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <!-- PORTFOLIO MODALS -->
+
         <!--Weather App-->
-        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-labelledby="portfolioModal4Label" aria-hidden="true">
+        <div
+            class="portfolio-modal modal fade"
+            id="portfolioModal1"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="portfolioModal1Label"
+            aria-hidden="true"
+        >
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <button
+                        class="close"
+                        type="button"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        <span aria-hidden="true"
+                            ><i class="fas fa-times"></i
+                        ></span>
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal4Label">Weather App</h2>
+                                    <h2
+                                        class="portfolio-modal-title text-uppercase mb-0"
+                                        id="portfolioModal1Label"
+                                    >
+                                        Weather App
+                                    </h2>
+
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
+                                    <div
+                                        class="divider-custom divider-light mb-0"
+                                    >
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                                        <div class="divider-custom-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
                                         <div class="divider-custom-line"></div>
                                     </div>
+
                                     <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/WeatherApp" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://habby-bit.github.io/WeatherApp/" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> This Weather App allows the user to search for a city 
-                                        and upon submission, receive the current weather information for that city. 
-                                        That includes the temperature, the humidity, the wind speed and the UV Index. 
-                                        They are also presented with a 5 day forecast that informs of the temperature 
-                                        and humidity for the next 5 days. Upon searching a city, that city is saved and 
-                                        added to the page. If the user presses that city name again, the weather dashboard 
-                                        will once again display the information for that city.
+                                    <p class="modTitle text-primary">SUMMARY</p>
+                                    <p class="modCont mb-4">
+                                        This Weather App allows the user to
+                                        search for a city and upon submission,
+                                        receive the current weather information
+                                        for that city. That includes the
+                                        temperature, the humidity, the wind
+                                        speed and the UV Index. They are also
+                                        presented with a 5 day forecast that
+                                        informs of the temperature and humidity
+                                        for the next 5 days. Upon searching a
+                                        city, that city is saved and added to
+                                        the page. If the user presses that city
+                                        name again, the weather dashboard will
+                                        once again display the information for
+                                        that city.
                                     </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">Full Stack Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">Javascript, JQuery, CSS, Bootstrap, API’s</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Directory-->
-        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-labelledby="portfolioModal5Label" aria-hidden="true">
-            <div class="modal-dialog modal-xl" role="document">
-                <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
-                    </button>
-                    <div class="modal-body text-center">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-10">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal5Label">Employee Directory</h2>
-                                    <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
-                                        <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/Employee-Directory" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://habby-bit.github.io/Employee-Directory/" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> With this Employee Directory App, the user will be 
-                                        able to view their entire employee directory at once so that they have quick 
-                                        access to their information. When the page is loaded, the information for all 
-                                        of their employees is populated onto the page. The user may sort the table by 
-                                        First Name, Last Name, or Age. It is also possible to search for any user in 
-                                        the table by First Name, Last Name, Age, Email or Phone Number. As you type and 
-                                        begin your search, the table will filter to show you the users whose information 
-                                        matches that which you've typed in. 
+                                    <p class="modTitle text-primary">ROLE</p>
+                                    <p class="modCont mb-4">
+                                        Full Stack Developer
                                     </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">Full Stack Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">React.js, React-Bootstrap, Axios, JavaScript, Node.js, Random User, API, CSS</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="modTitle text-primary">TOOLS</p>
+                                    <p class="modCont mb-4">
+                                        Javascript, JQuery, CSS, Bootstrap,
+                                        API’s
+                                    </p>
+                                    <div class="modRepoProjectContainer">
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://github.com/habby-bit/WeatherApp"
+                                            target="_blank"
+                                            >GITHUB REPO</a
+                                        >
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://habby-bit.github.io/WeatherApp/"
+                                            target="_blank"
+                                            >DEPLOYED PROJECT</a
+                                        >
+                                        <button
+                                            class="btn btn-primary"
+                                            data-dismiss="modal"
+                                        >
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -484,46 +820,181 @@
             </div>
         </div>
         <!--Todo List-->
-        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div
+            class="portfolio-modal modal fade"
+            id="portfolioModal2"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="portfolioModal2Label"
+            aria-hidden="true"
+        >
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <button
+                        class="close"
+                        type="button"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        <span aria-hidden="true"
+                            ><i class="fas fa-times"></i
+                        ></span>
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal6Label">Todo List</h2>
+                                    <h2
+                                        class="portfolio-modal-title text-uppercase mb-0"
+                                        id="portfolioModal2Label"
+                                    >
+                                        Todo List
+                                    </h2>
+
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
+                                    <div
+                                        class="divider-custom divider-light mb-0"
+                                    >
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                                        <div class="divider-custom-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="modTitle text-primary">SUMMARY</p>
+                                    <p class="modCont mb-4">
+                                        An incredibly dynamic todo list
+                                        application that allows the user to
+                                        track complex tasks that need to get
+                                        done or items that need to be purchased.
+                                        Some Features include having multiple
+                                        lists, toggling between those lists,
+                                        crossing out completed tasks, tracking
+                                        the number of tasks remaining for any
+                                        given list, deleting completed tasks and
+                                        lists as well as saving all information
+                                        on page reload.
+                                    </p>
+                                    <p class="modTitle text-primary">ROLE</p>
+                                    <p class="modCont mb-4">
+                                        FullStack Developer
+                                    </p>
+                                    <p class="modTitle text-primary">TOOLS</p>
+                                    <p class="modCont mb-4">
+                                        JavaScript, HTML, CSS
+                                    </p>
+                                    <div class="modRepoProjectContainer">
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://github.com/habby-bit/ThingsToDo"
+                                            target="_blank"
+                                            >GITHUB REPO</a
+                                        >
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://habby-bit.github.io/ThingsToDo/"
+                                            target="_blank"
+                                            >DEPLOYED PROJECT</a
+                                        >
+                                        <button
+                                            class="btn btn-primary"
+                                            data-dismiss="modal"
+                                        >
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Cool Characters-->
+        <div
+            class="portfolio-modal modal fade"
+            id="portfolioModal3"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="portfolioModal3Label"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <button
+                        class="close"
+                        type="button"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        <span aria-hidden="true"
+                            ><i class="fas fa-times"></i
+                        ></span>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-10">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2
+                                        class="portfolio-modal-title text-uppercase mb-0"
+                                        id="portfolioModal3Label"
+                                    >
+                                        Cool Characters
+                                    </h2>
+                                    <!-- Icon Divider-->
+                                    <div
+                                        class="divider-custom divider-light mb-0"
+                                    >
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/ThingsToDo" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://habby-bit.github.io/ThingsToDo/" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> An incredibly dynamic todo list application that 
-                                        allows the user to track complex tasks that need to get done or items 
-                                        that need to be purchased. Some Features include having multiple lists,
-                                        toggling between those lists, crossing out completed tasks, tracking the 
-                                        number of tasks remaining for any given list, deleting completed tasks 
-                                        and lists as well as saving all information on page reload.
+
+                                    <p class="modTitle text-primary">SUMMARY</p>
+                                    <p class="modCont mb-4">
+                                        This was a fun solo project I did to pay
+                                        homage to some incredible characters in
+                                        TV shows and movies I've watched over
+                                        the years. This isn't a comprehensive
+                                        list of course.
                                     </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">FullStack Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">JavaScript, HTML, CSS</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="modTitle text-primary">ROLE</p>
+                                    <p class="modCont mb-4">
+                                        Front End Engineer
+                                    </p>
+                                    <p class="modTitle text-primary">TOOLS</p>
+                                    <p class="modCont mb-4">
+                                        JavaScript, HTML, CSS, SASS
+                                    </p>
+                                    <div class="modRepoProjectContainer">
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://github.com/habby-bit/Neon"
+                                            target="_blank"
+                                            >GITHUB REPO</a
+                                        >
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://habby-bit.github.io/Neon/"
+                                            target="_blank"
+                                            >DEPLOYED PROJECT</a
+                                        >
+                                        <button
+                                            class="btn btn-primary"
+                                            data-dismiss="modal"
+                                        >
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -532,44 +1003,89 @@
             </div>
         </div>
         <!--Netflix Clone-->
-        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <div
+            class="portfolio-modal modal fade"
+            id="portfolioModal4"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="portfolioModal4Label"
+            aria-hidden="true"
+        >
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <button
+                        class="close"
+                        type="button"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        <span aria-hidden="true"
+                            ><i class="fas fa-times"></i
+                        ></span>
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal6Label">Netflix Clone</h2>
+                                    <h2
+                                        class="portfolio-modal-title text-uppercase mb-0"
+                                        id="portfolioModal4Label"
+                                    >
+                                        Netflix Clone
+                                    </h2>
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
+                                    <div
+                                        class="divider-custom divider-light mb-0"
+                                    >
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                                        <div class="divider-custom-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/NetflixClone" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://habby-bit.github.io/NetflixClone/" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> This website is a simple clone of an old Netflix Landing Page. 
-                                        The user is able to toggle between tabs to see information about choosing a plan, 
-                                        watching on multiple devices and cancelling one's subscription. The site is also 
-                                        fully responsive across multiple devices.
+
+                                    <p class="modTitle text-primary">SUMMARY</p>
+                                    <p class="modCont mb-4">
+                                        This website is a simple clone of an old
+                                        Netflix Landing Page. The user is able
+                                        to toggle between tabs to see
+                                        information about choosing a plan,
+                                        watching on multiple devices and
+                                        cancelling one's subscription. The site
+                                        is also fully responsive across multiple
+                                        devices.
                                     </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">FullStack Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">JavaScript, HTML, CSS</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="modTitle text-primary">ROLE</p>
+                                    <p class="modCont mb-4">
+                                        FullStack Developer
+                                    </p>
+                                    <p class="modTitle text-primary">TOOLS</p>
+                                    <p class="modCont mb-4">
+                                        JavaScript, HTML, CSS
+                                    </p>
+                                    <div class="modRepoProjectContainer">
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://github.com/habby-bit/NetflixClone"
+                                            target="_blank"
+                                            >GITHUB REPO</a
+                                        >
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://habby-bit.github.io/NetflixClone/"
+                                            target="_blank"
+                                            >DEPLOYED PROJECT</a
+                                        >
+                                        <button
+                                            class="btn btn-primary"
+                                            data-dismiss="modal"
+                                        >
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -577,46 +1093,104 @@
                 </div>
             </div>
         </div>
-        <!--Budget Tracker-->
-        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <!-- Code Carnival-->
+        <div
+            class="portfolio-modal modal fade"
+            id="portfolioModal5"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="portfolioModal5Label"
+            aria-hidden="true"
+        >
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <button
+                        class="close"
+                        type="button"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        <span aria-hidden="true"
+                            ><i class="fas fa-times"></i
+                        ></span>
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal6Label">Budget Tracker</h2>
+                                    <h2
+                                        class="portfolio-modal-title text-uppercase mb-0"
+                                        id="portfolioModal5Label"
+                                    >
+                                        Code Carnival
+                                    </h2>
+
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
+                                    <div
+                                        class="divider-custom divider-light mb-0"
+                                    >
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/Budget-Tracker" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://boss-budgeting.herokuapp.com/" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
+                                        <div class="divider-custom-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> With this Budget Tracker App, the user will be able 
-                                        to add expenses and deposits to their budget with or without an internet 
-                                        connection. When entering transactions offline, they will be stored. 
-                                        Any withdrawals or deposits will be shown on the page, then added to their 
-                                        transaction history when their connection is back online.
+                                    <p class="modTitle text-primary">SUMMARY</p>
+                                    <p class="modCont mb-4">
+                                        The Code Carnival is a fun code based
+                                        collection of carnival games created for
+                                        all to play, excite, and enjoy. We want
+                                        you to be immersed in the carnival
+                                        experience, with games such as pong,
+                                        blackjack, and the fortune teller -
+                                        Madame Boolean, all coded for your
+                                        enjoyment. Extra games were added as
+                                        well, to the likes of MadLibs, Snake,
+                                        and more to come in the future! In doing
+                                        so, we made use of a database, express
+                                        server, user authentication, encryption,
+                                        and game development. We hope you love
+                                        your time at the carnival.
                                     </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">Backend Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">JavaScript, Progressive Web Applications, Service Worker, Node.js, Manifest, indexedDB, API's, Express</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="modTitle text-primary">ROLE</p>
+                                    <p class="modCont mb-4">
+                                        Full Stack Developer -
+                                        <span
+                                            style="
+                                                font-style: italic;
+                                                font-weight: 900;
+                                            "
+                                            >BlackJack</span
+                                        >
+                                    </p>
+
+                                    <p class="modTitle text-primary">TOOLS</p>
+                                    <p class="modCont mb-4">
+                                        Javascript, JQuery, Bootstrap, CSS
+                                    </p>
+                                    <!-- Portfolio Modal - Text-->
+                                    <div class="modRepoProjectContainer">
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://github.com/habby-bit/Code-Carnival"
+                                            target="_blank"
+                                            >GITHUB REPO</a
+                                        >
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://code-carnival.herokuapp.com/"
+                                            target="_blank"
+                                            >DEPLOYED PROJECT</a
+                                        >
+                                        <button
+                                            class="btn btn-primary"
+                                            data-dismiss="modal"
+                                        >
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -624,48 +1198,105 @@
                 </div>
             </div>
         </div>
-        <!--Workout Tracker-->
-        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-labelledby="portfolioModal6Label" aria-hidden="true">
+        <!--Upstaged-->
+        <div
+            class="portfolio-modal modal fade"
+            id="portfolioModal6"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="portfolioModal6Label"
+            aria-hidden="true"
+        >
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                    <button
+                        class="close"
+                        type="button"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                    >
+                        <span aria-hidden="true"
+                            ><i class="fas fa-times"></i
+                        ></span>
                     </button>
                     <div class="modal-body text-center">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-10">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-uppercase mb-0" id="portfolioModal6Label">Workout Tracker</h2>
+                                    <h2
+                                        class="portfolio-modal-title text-uppercase mb-0"
+                                        id="portfolioModal6Label"
+                                    >
+                                        Upstaged
+                                    </h2>
+
                                     <!-- Icon Divider-->
-                                    <div class="divider-custom divider-light mb-0">
+                                    <div
+                                        class="divider-custom divider-light mb-0"
+                                    >
                                         <div class="divider-custom-line"></div>
-                                        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+                                        <div class="divider-custom-icon">
+                                            <i class="fas fa-code"></i>
+                                        </div>
                                         <div class="divider-custom-line"></div>
                                     </div>
+
                                     <!-- Portfolio Modal - Text-->
-                                    <p class = "modTitle"><a href="https://github.com/habby-bit/Workout_Tracker" target="_blank">GITHUB REPO</a></p>
-                                    <p class = "modTitle mb-4"><a href="https://working-workouts.herokuapp.com/?id=6004b1aae2a6820015bf0713" target="_blank">DEPLOYED PROJECT</a></p>
-                                    <div class="divider-custom divider-light">
-                                        <div class="divider-custom-line"></div>
-                                    </div>
-                                    <p class = "modTitle text-primary">SUMMARY</p>
-                                    <p class = "modCont mb-4"> This Workout Tracker app allows the user to view, 
-                                        create and track daily workouts. When the user loads the page, they are 
-                                        given the option to create a new workout or continue with their last workout.
-                                        They can log multiple exercises in a workout on a given day. They're also able 
-                                        to track the name, type, weight, sets, reps, and duration of exercise. 
-                                        If the exercise is a cardio exercise, for example, the user is able to track my 
-                                        distance traveled.
+                                    <p class="modTitle text-primary">SUMMARY</p>
+                                    <p class="modCont mb-4">
+                                        Upstaged was created by theatre lovers,
+                                        for theatre lovers. Upstaged is a
+                                        multi-faceted and highly entertaining
+                                        theatre app, created to entertain,
+                                        amuse, and enjoy. There are various
+                                        games, quizzes, videos, and social
+                                        feeds. Theatre Jeopardy, Hamilton
+                                        Trivia, and a Playbill creator, just to
+                                        name a few of the interesting features
+                                        on the site. You can stay up to date on
+                                        what's trending in broadway with our
+                                        News page, as well as our Show-Score,
+                                        Twitter, and Youtube feeds. With every
+                                        game or quiz, you have a chance to gain
+                                        points and rise through the rank. Stay
+                                        tuned for a chat feature, so you can
+                                        enjoy all of this in live time with
+                                        friends, competitors and fellow theatre
+                                        lovers.
                                     </p>
-                                    <p class = "modTitle text-primary">ROLE</p>
-                                    <p class = "modCont mb-4">Backend Developer</p>
-                                    <p class = "modTitle text-primary">TOOLS</p>
-                                    <p class = "modCont mb-4">JavaScript, Node.js, indexedDB, API's, Express</p>
-                                    <button class="btn btn-primary mt-4" data-dismiss="modal">
-                                        <i class="fas fa-times fa-fw"></i>
-                                        Close Window
-                                    </button>
+                                    <p class="modTitle text-primary">ROLE</p>
+                                    <p class="modCont mb-4">
+                                        Full Stack Developer
+                                    </p>
+                                    <p class="modTitle text-primary">TOOLS</p>
+                                    <p class="modCont mb-4">
+                                        Javascript, JQuery, CSS, Bootstrap,
+                                        API’s, Mongoose, React.js, Express,
+                                        Axios
+                                    </p>
+                                    <div class="modRepoProjectContainer">
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://github.com/habby-bit/Upstaged"
+                                            target="_blank"
+                                            >GITHUB REPO</a
+                                        >
+                                        <a
+                                            class="btn btn-outline-primary repoProjectButton"
+                                            href="https://upstaged.herokuapp.com/"
+                                            target="_blank"
+                                            >DEPLOYED PROJECT</a
+                                        >
+
+                                        <button
+                                            class="btn btn-primary"
+                                            data-dismiss="modal"
+                                        >
+                                            <i class="fas fa-times fa-fw"></i>
+                                            Close Window
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -673,6 +1304,16 @@
                 </div>
             </div>
         </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+            integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+            integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+            crossorigin="anonymous"
+        ></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

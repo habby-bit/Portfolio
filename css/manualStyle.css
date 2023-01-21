@@ -1,5 +1,8 @@
 .navbar {
     background-color: #000000;
+    border-bottom: 2px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar .container {
@@ -37,11 +40,11 @@
     padding-right: 0px;
 }
 
-.blackHeading{
+.blackHeading {
     color: black;
 }
 
-.divider-custom .divider-custom-line{ 
+.divider-custom .divider-custom-line {
     background-color: black;
 }
 
@@ -49,8 +52,21 @@
     color: black;
 }
 
-#portfolio {
+.header-custom-line {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.aboutMeFun {
+    background-color: #858282;
+}
+
+.portfolio {
     background-color: gainsboro;
+}
+
+.portfolioQuickLook {
+    background-color: #858282;
 }
 
 .portTitle {
@@ -64,7 +80,16 @@
 
 .modTitle {
     padding-bottom: 0px;
+    margin: 0.5rem;
     margin-bottom: 0px;
+    font-weight: 900;
+}
+
+.modRepoProjectContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    padding: 0rem 2rem;
 }
 
 .modCont {
@@ -75,14 +100,21 @@
 .modal-body {
     background-color: black;
     color: whitesmoke;
+    padding: 3rem 0rem;
 }
 
 .btn {
     color: black;
 }
 
-.btn-social {
+.repoProjectButton {
     color: whitesmoke;
+    display: flex;
+    align-items: center;
+}
+
+.btn-social {
+    color: #1abc9c;
 }
 
 #about {
@@ -96,6 +128,12 @@
 
 .footer {
     background-color: black;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.footerText {
+    color: whitesmoke;
 }
 
 .copyright {
@@ -104,6 +142,42 @@
 #page-top .img-fluid {
     width: 100%;
     height: 250px;
+}
+
+.page-section.aboutMeFun {
+    padding-top: 0.5rem;
+}
+
+.page-section.portfolioQuickLook {
+    padding: 4rem;
+    padding-bottom: 5rem;
+}
+
+.portfolioQuickLookTitle {
+    text-transform: uppercase;
+    font-size: 2.3rem;
+}
+
+.portfolioQuickLookTextGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.page-section {
+    padding-bottom: 3rem;
+}
+.page-section-heading-two {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-style: italic;
+    padding: 25px 0px;
+    margin-bottom: 0rem !important;
+}
+
+.modal-dialog {
+    border: solid 1px #1abc9c;
 }
 
 .modal-xl {
@@ -118,4 +192,47 @@
 h5 {
     margin-top: 12px;
     margin-left: 8px;
+}
+
+.carousel-indicators {
+    margin-bottom: -2rem;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.carousel-control-prev {
+    margin-left: -6rem;
+}
+
+.carousel-control-next {
+    margin-right: -6rem;
+}
+
+.carousel-control-prev-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.carousel-control-next-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.aboutMeLists {
+    list-style: circle;
+    margin-left: 3rem;
+}
+
+.downloadButton {
+    color: whitesmoke;
 }
