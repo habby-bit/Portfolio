@@ -10433,8 +10433,6 @@ a.text-dark:focus {
     font-size: 2rem;
     line-height: 2rem;
     font-style: italic;
-    border-top: solid 1px;
-    border-bottom: solid 1px;
     padding: 15px 0px;
 }
 

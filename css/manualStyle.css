@@ -168,6 +168,7 @@
 .page-section {
     padding-bottom: 3rem;
 }
+
 .page-section-heading-two {
     font-size: 2rem;
     line-height: 2rem;
@@ -229,8 +230,17 @@ h5 {
 }
 
 .aboutMeLists {
-    list-style: circle;
+    list-style: square;
     margin-left: 3rem;
+    color: #000000;
+}
+
+.aboutMeLists::marker {
+    color: #1abc9c;
+}
+
+.aboutMeListTitle {
+    color: black;
 }
 
 .downloadButton {
